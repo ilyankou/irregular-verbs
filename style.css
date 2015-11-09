@@ -1,0 +1,77 @@
+/*Stylesheet for irregular_verbs*/
+
+html {
+	font-size: 22pt;
+	font-family: Arial;
+	color: LightSlateGray;
+	text-align: center;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#heading {
+	height: 20px;
+	width: 100%;
+	background-color: LightSteelBlue;
+}
+
+#footer {
+	position: absolute;
+	height: 10pt;
+	width: 100%;
+	top: 100%;
+	margin-top: -11pt;
+	background-color: LightSteelBlue;
+	font-family: Arial;
+	font-size: 8pt;
+	text-align: center;
+	color: white;
+}
+
+#logo {
+	height: 60px;
+	width: 300px;
+}
+
+#myBox {
+	position: absolute;
+	width: 99%;
+	height: 160px;
+	top: 20%;
+	margin-top: 60px;
+}
+
+#myInput {
+	width: 240px;
+	font-size: 22pt;
+	text-align: center;
+	color: LightSlateGray;
+	border: solid 1px LightSlateGray;
+}
+
+#verbAnswer {
+	margin-top: 20px;
+	height: 42px;
+	visibility: hidden;
+}
+
+#correctInput {
+	font-size: 28pt;
+	background-color: YellowGreen;
+	color: white;
+}
+
+#myCounter {
+	margin-top: 20px;
+	color: LightGrey;
+}
+
+#vRussian {
+	display: block;
+	margin-bottom: 10px;
+	color: Silver;
+	font-size: 20pt;
+}
