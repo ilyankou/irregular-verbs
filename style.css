@@ -1,77 +1,54 @@
-/*Stylesheet for irregular_verbs*/
-
-html {
-	font-size: 22pt;
-	font-family: Arial;
-	color: LightSlateGray;
-	text-align: center;
-}
-
 body {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
+  background: white;
+  font-size: 32pt;
+  font-family: Arial;
+  color: #ccc;
+  text-align: center;
 }
 
-#heading {
-	height: 20px;
-	width: 100%;
-	background-color: LightSteelBlue;
-}
-
-#footer {
+form {
 	position: absolute;
-	height: 10pt;
-	width: 100%;
-	top: 100%;
-	margin-top: -11pt;
-	background-color: LightSteelBlue;
-	font-family: Arial;
-	font-size: 8pt;
-	text-align: center;
-	color: white;
-}
-
-#logo {
-	height: 60px;
-	width: 300px;
-}
-
-#myBox {
-	position: absolute;
-	width: 99%;
+  font-size: 32pt;
+	width: 100vw;
+  margin: 0;
+  padding: 0;
 	height: 160px;
-	top: 20%;
-	margin-top: 60px;
+	top: 40vh;
+  color: black;
 }
 
 #myInput {
 	width: 240px;
-	font-size: 22pt;
+	font-size: 32pt;
 	text-align: center;
-	color: LightSlateGray;
-	border: solid 1px LightSlateGray;
+  border: 0;
+  border-bottom: dashed 2px black;
+  box-shadow: none;
+  outline: none;
 }
 
-#verbAnswer {
-	margin-top: 20px;
-	height: 42px;
-	visibility: hidden;
-}
-
-#correctInput {
-	font-size: 28pt;
+#answer {
+	font-size: 32pt;
 	background-color: YellowGreen;
 	color: white;
+  margin-top: 20px;
+  height: 42px;
+  padding: 5px 15px 5px 15px;
 }
 
-#myCounter {
-	margin-top: 20px;
-	color: LightGrey;
+#counter {
+  position: absolute;
+  width: 100vw;
+  padding-bottom: 20px;
+  bottom: 0;
+  font-size: 18pt;
 }
 
-#vRussian {
+#russian {
 	display: block;
 	margin-bottom: 10px;
-	color: Silver;
+	color: #ccc;
 	font-size: 20pt;
 }
